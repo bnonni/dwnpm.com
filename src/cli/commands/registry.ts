@@ -11,8 +11,8 @@ export class RegistryCommand implements ICommand {
   private async start() {
     try {
       Logger.info('Starting registry server ...');
-      const { Registry } = await import('../../dpr/index.js');
-      const server = new Registry();
+      const { DPR } = await import('../../dpr/index.js');
+      const server = new DPR();
       server.start();
     } catch (error: any) {
       Logger.error(`Failed to start registry server: ${error.message}`);
