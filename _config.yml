@@ -1,0 +1,6 @@
+theme: jekyll-theme-minimal
+show_sidebar: false
+title: Decentralized Registry Package Manager (DRPM)
+description: DRPM - npm for the DWeb
+include:
+  - .well-known
