@@ -1,6 +1,6 @@
 import { Setup } from '../../lib/setup.js';
 import { Logger } from '../../utils/logger.js';
-import { ICommand } from '../drpm.js';
+import { ICommand } from '../dwnpm.js';
 
 export class SetupCommand implements ICommand {
   public async execute(): Promise<void> {

@@ -1,6 +1,6 @@
 import { Profile } from '../../lib/profile.js';
 import { Logger } from '../../utils/logger.js';
-import { ICommand } from '../drpm.js';
+import { ICommand } from '../dwnpm.js';
 import { DRegistryPackageManagerError } from './error.js';
 
 export class ProfileCommand implements ICommand {

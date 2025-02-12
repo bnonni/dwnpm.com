@@ -1,5 +1,5 @@
 import { Logger } from '../../utils/logger.js';
-import { ICommand } from '../drpm.js';
+import { ICommand } from '../dwnpm.js';
 
 export class RegistryCommand implements ICommand {
   async execute({ subcommand }: { subcommand?: string }): Promise<void> {

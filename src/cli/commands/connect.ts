@@ -1,6 +1,6 @@
 import { DWeb5 } from '../../lib/dweb5.js';
 import { Profile } from '../../lib/profile.js';
-import { ICommand } from '../drpm.js';
+import { ICommand } from '../dwnpm.js';
 
 export class ConnectCommand implements ICommand {
   async execute({ options }: { options: any; }): Promise<void> {
