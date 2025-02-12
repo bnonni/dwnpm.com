@@ -1,5 +1,5 @@
 {
-  "name": "dwnpm",
+  "name": "@dwnp/root",
   "version": "5.1.0",
   "type": "module",
   "description": "Decentralized Web Node Package Manager (DWNPM) helps developers publish, install, find and manage Decentralized Packages (DPKs) published to Decentralized Web Nodes (DWNs) acting as a personal or public Decentralized Web Node Package Registry (DWNPR). DWNPM does this by looking up a Decentralized Identifier (DID) to find its DID document and parse out the DWN service endpoint. The endpoint points to the location of the DID owner's DWN, which acts as a DWNPR, and DWNPM queries the endpoint for any DPKs with matching metadata locally installing the corresponding package release (source code). Both the DPK metadata and DPK release are stored in the DWNPR as binary blobs. Metadata mime-type is application/json and release mime-type is application/gzip.",
